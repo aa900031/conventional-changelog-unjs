@@ -1,0 +1,26 @@
+{{#if noteGroups}}
+{{#each noteGroups}}
+
+### {{title}}
+
+{{#each notes}}
+- {{#if commit.scope}}**{{commit.scope}}:** {{/if}}{{text}}
+{{/each}}
+{{/each}}
+{{/if}}
+
+{{#if breakingChanges~}}
+### {{breakingChangesTitle}}
+
+{{#each breakingChanges}}
+{{> commit root=@root}}
+{{/each}}
+{{/if}}
+
+{{#if contributors~}}
+#### {{contributorsTitle}}
+
+{{#each contributors}}
+- {{name}}{{#if email}}<{{email}}>{{/if}}
+{{/each}}
+{{/if}}
