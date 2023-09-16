@@ -1,0 +1,36 @@
+{
+	"name": "conventional-changelog-unjs",
+	"type": "module",
+	"version": "0.1.0",
+	"packageManager": "pnpm@8.7.5",
+	"description": "conventional-changelog unjs preset",
+	"author": "zhong666 <hi@zhong666.me>",
+	"license": "MIT",
+	"keywords": [
+		"conventional-changelog",
+		"unjs",
+		"preset"
+	],
+	"sideEffects": false,
+	"exports": "./lib/index.mjs",
+	"main": "./lib/index.mjs",
+	"files": [
+		"./lib"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "vitest run",
+		"dev:test": "vitest"
+	},
+	"dependencies": {
+		"compare-func": "^2.0.0",
+		"defu": "^6.1.2",
+		"scule": "^1.0.0"
+	},
+	"devDependencies": {
+		"conventional-changelog-writer": "^7.0.1",
+		"vitest": "^0.34.4"
+	}
+}
