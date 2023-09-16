@@ -9,8 +9,7 @@ module.exports = {
 	git: {
 		push: false,
 		tagName: 'v${version}',
-    commitMessage: 'chore(release): v${version}',
-		requireUpstream: false,
+		commitMessage: 'chore(release): v${version}',
 	},
 	github: {
 		release: false,
