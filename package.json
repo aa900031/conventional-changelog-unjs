@@ -2,7 +2,7 @@
 	"name": "conventional-changelog-unjs",
 	"type": "module",
 	"version": "0.1.0",
-	"packageManager": "pnpm@8.7.5",
+	"packageManager": "pnpm@8.8.0",
 	"description": "conventional-changelog unjs preset",
 	"author": "zhong666 <hi@zhong666.me>",
 	"license": "MIT",
@@ -31,10 +31,10 @@
 		"scule": "^1.0.0"
 	},
 	"devDependencies": {
-		"@release-it/conventional-changelog": "^7.0.1",
+		"@release-it/conventional-changelog": "^7.0.2",
 		"conventional-changelog-writer": "^7.0.1",
 		"conventional-changelog-unjs": "workspace:*",
-		"release-it": "^16.1.5",
-		"vitest": "^0.34.4"
+		"release-it": "^16.2.1",
+		"vitest": "^0.34.5"
 	}
 }
