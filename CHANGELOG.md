@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v0.1.2
+
+[compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v0.1.1...v0.1.2)
+
+### 🩹 Fixes
+
+-  "Cannot modify immutable object" ([48a490b](https://github.com/aa900031/conventional-changelog-unjs/commit/48a490b3aa529b34e9938ace0d1390f27c1fa558))
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#7) ([58f796a](https://github.com/aa900031/conventional-changelog-unjs/commit/58f796aad61f99c8e4ecfcc3bd4b359263a5d443))
+-  **deps:** Update all non-major dependencies (#8) ([6bf5463](https://github.com/aa900031/conventional-changelog-unjs/commit/6bf546374e56515b240e037b24cba878aaf5f7a2))
+-  Upgrade conventional-changelog to v8 ([086ab08](https://github.com/aa900031/conventional-changelog-unjs/commit/086ab08e6afed6df8496c7e90d0d583c618b46f7))
+-  Upgrade pnpm to 9.6.0 ([c8ca0ae](https://github.com/aa900031/conventional-changelog-unjs/commit/c8ca0ae47dfda43f1c0539c2c4fe82765f7838cf))
+-  Upgrade vitest to v2 ([5c62168](https://github.com/aa900031/conventional-changelog-unjs/commit/5c62168d0cffd07f7fac59133a4370086cb518e5))
+-  Use self renovate presets ([cbf0e3a](https://github.com/aa900031/conventional-changelog-unjs/commit/cbf0e3aecfa3b359bbb1c8207fd24c85781e3d8e))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v0.1.1
 
 [compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v0.1.0...v0.1.1)
