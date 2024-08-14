@@ -2,7 +2,7 @@
 	"name": "conventional-changelog-unjs",
 	"type": "module",
 	"version": "0.1.2",
-	"packageManager": "pnpm@9.6.0",
+	"packageManager": "pnpm@9.7.1",
 	"description": "conventional-changelog unjs preset",
 	"author": "zhong666 <hi@zhong666.me>",
 	"license": "MIT",
