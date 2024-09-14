@@ -24,7 +24,6 @@ Use with [conventional-changelog-cli](https://github.com/conventional-changelog/
 conventional-changelog -p unjs -i CHANGELOG.md
 ```
 
-
 <!-- Link Resources -->
 
 [npm-version-src]: https://img.shields.io/npm/v/conventional-changelog-unjs?style=flat&colorA=18181B&colorB=F0DB4F

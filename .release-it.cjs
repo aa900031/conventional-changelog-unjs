@@ -1,3 +1,5 @@
+/* eslint-disable no-template-curly-in-string */
+
 module.exports = {
 	plugins: {
 		'@release-it/conventional-changelog': {
