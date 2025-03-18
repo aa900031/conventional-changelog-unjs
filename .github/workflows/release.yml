@@ -23,7 +23,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           cache: pnpm
-          registry-url: https://registry.npmjs.org/
           node-version-file: .tool-versions
 
       - name: Install Dependencies
