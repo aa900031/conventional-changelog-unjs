@@ -33,11 +33,11 @@
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "^2.6.0",
-		"@release-it/conventional-changelog": "^8.0.2",
+		"@release-it/conventional-changelog": "^9.0.4",
 		"conventional-changelog-unjs": "workspace:*",
 		"conventional-changelog-writer": "^8.0.1",
 		"eslint": "^9.22.0",
-		"release-it": "^17.11.0",
+		"release-it": "^18.1.2",
 		"vitest": "^2.1.9"
 	}
 }
