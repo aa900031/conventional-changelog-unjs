@@ -9,7 +9,7 @@
 	"homepage": "https://github.com/aa900031/conventional-changelog-unjs#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/aa900031/conventional-changelog-unjs.git"
+		"url": "git+https://github.com/aa900031/conventional-changelog-unjs.git"
 	},
 	"bugs": {
 		"url": "https://github.com/aa900031/conventional-changelog-unjs/issues"

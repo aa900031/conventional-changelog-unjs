@@ -28,4 +28,4 @@ jobs:
           node-version-file: .tool-versions
 
       - name: Publish to pkg.pr.new
-        run: pnpm dlx pkg-pr-new publish --compact
+        run: pnpm dlx pkg-pr-new publish
