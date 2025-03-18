@@ -6,6 +6,13 @@
 	"description": "conventional-changelog unjs preset",
 	"author": "zhong666 <hi@zhong666.me>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aa900031/conventional-changelog-unjs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/aa900031/conventional-changelog-unjs/issues"
+	},
 	"keywords": [
 		"conventional-changelog",
 		"unjs",
