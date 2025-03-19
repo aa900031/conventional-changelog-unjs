@@ -1,11 +1,6 @@
 name: Release Preview
 
 on:
-  push:
-    branches:
-      - '**'
-    tags:
-      - '!**'
   pull_request:
   workflow_dispatch:
 
@@ -28,4 +23,4 @@ jobs:
           node-version-file: .tool-versions
 
       - name: Publish to pkg.pr.new
-        run: pnpm dlx pkg-pr-new publish
+        run: pnpm dlx pkg-pr-new publish --compact
