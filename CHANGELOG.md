@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.0.0
+
+[compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v0.1.2...v1.0.0)
+
+### 🚀 Enhancements
+
+-  ⚠️ New preset interface (#22) ([75dd73b](https://github.com/aa900031/conventional-changelog-unjs/commit/75dd73b40dd76a47a0178f8776fc5157596ba147))
+
+### 🏡 Chore
+
+-  Add eslint ([ea9788a](https://github.com/aa900031/conventional-changelog-unjs/commit/ea9788a9f2fbb521205ff5b01d50b5958b15d91e))
+-  **deps:** Update npm non-major dependencies (#12) ([74a8a37](https://github.com/aa900031/conventional-changelog-unjs/commit/74a8a37811224bc661c8229efdd057dfc2a8aca0))
+-  **deps:** Update npm non-major dependencies (#14) ([383f66a](https://github.com/aa900031/conventional-changelog-unjs/commit/383f66a5746ee982803a49865b8df2dd05a652b0))
+-  **deps:** Update npm non-major dependencies (#16) ([f35be94](https://github.com/aa900031/conventional-changelog-unjs/commit/f35be9442b5071302802dc2c60da1034c5b01490))
+-  **deps:** Update npm non-major dependencies (#18) ([78a7169](https://github.com/aa900031/conventional-changelog-unjs/commit/78a71693bd78cc9040efacca65467f7e58630c18))
+-  **deps:** Update pnpm to v9.10.0 (#11) ([e3a588a](https://github.com/aa900031/conventional-changelog-unjs/commit/e3a588a8a7e0b10c4bf749e1630218c7e3d8d8e1))
+-  **deps:** Update pnpm to v9.12.2 (#13) ([80d80cd](https://github.com/aa900031/conventional-changelog-unjs/commit/80d80cdd852e3de1c6eb35b68a835015a5d1fc9c))
+-  **deps:** Update pnpm to v9.12.3 (#15) ([7f9cb3c](https://github.com/aa900031/conventional-changelog-unjs/commit/7f9cb3ce7e400aec7be4667957e0aebecdb35295))
+-  **deps:** Update pnpm to v9.15.9 (#17) ([f98325b](https://github.com/aa900031/conventional-changelog-unjs/commit/f98325bfbcbdb98993618e0c6f2a8a25f55067a3))
+-  **deps:** Update pnpm to v9.7.1 (#10) ([3511c32](https://github.com/aa900031/conventional-changelog-unjs/commit/3511c320dc625300a52b7b859bddc9b8628e4359))
+-  **deps:** Upgrade none breaking change deps (#21) ([3bdd675](https://github.com/aa900031/conventional-changelog-unjs/commit/3bdd675cce5b63f047a903dbd6c806d827e538ca))
+-  **deps:** Upgrade release-it to 18.x.x (#19) ([6357b23](https://github.com/aa900031/conventional-changelog-unjs/commit/6357b23499eef495180f6de2672c1cddbc2b2314))
+-  **github actions:** Fix registry url ([49b4e98](https://github.com/aa900031/conventional-changelog-unjs/commit/49b4e98e90c9a690212340d6b5b1899af7a90140))
+
+### 🎨 Styles
+
+-  Lint format ([77b5d4f](https://github.com/aa900031/conventional-changelog-unjs/commit/77b5d4fea1cd0f0e7c0021d4be7ee4a8ebd8a788))
+
+
+### ⚠️ Breaking Changes
+
+-  new preset interface (#22) ([75dd73b](https://github.com/aa900031/conventional-changelog-unjs/commit/75dd73b40dd76a47a0178f8776fc5157596ba147))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v0.1.2
 
 [compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v0.1.1...v0.1.2)

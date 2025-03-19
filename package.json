@@ -1,7 +1,7 @@
 {
 	"name": "conventional-changelog-unjs",
 	"type": "module",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"packageManager": "pnpm@9.15.9",
 	"description": "conventional-changelog unjs preset",
 	"author": "zhong666 <hi@zhong666.me>",
