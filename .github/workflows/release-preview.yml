@@ -1,16 +1,18 @@
-name: Release
+name: Release Preview
 
 on:
   push:
+    branches:
+      - '**'
     tags:
-      - 'v*'
-
-permissions:
-  contents: write
+      - '!**'
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-  publish-npm:
+  publish-pkg-pr-new:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,10 +27,5 @@ jobs:
           cache: pnpm
           node-version-file: .tool-versions
 
-      - name: Install Dependencies
-        run: pnpm i
-
-      - name: Publish to npm
-        run: pnpm publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Publish to pkg.pr.new
+        run: pnpm dlx pkg-pr-new publish

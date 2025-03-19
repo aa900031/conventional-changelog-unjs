@@ -6,6 +6,14 @@
 	"description": "conventional-changelog unjs preset",
 	"author": "zhong666 <hi@zhong666.me>",
 	"license": "MIT",
+	"homepage": "https://github.com/aa900031/conventional-changelog-unjs#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aa900031/conventional-changelog-unjs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/aa900031/conventional-changelog-unjs/issues"
+	},
 	"keywords": [
 		"conventional-changelog",
 		"unjs",
@@ -26,6 +34,9 @@
 		"lint": "eslint .",
 		"release": "release-it --ci"
 	},
+	"peerDependencies": {
+		"conventional-changelog": "^5.1.0 || ^6.0.0"
+	},
 	"dependencies": {
 		"compare-func": "^2.0.0",
 		"defu": "^6.1.4",
@@ -33,11 +44,11 @@
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "^2.6.0",
-		"@release-it/conventional-changelog": "^8.0.2",
+		"@release-it/conventional-changelog": "^9.0.4",
 		"conventional-changelog-unjs": "workspace:*",
 		"conventional-changelog-writer": "^8.0.1",
 		"eslint": "^9.22.0",
-		"release-it": "^17.11.0",
+		"release-it": "^18.1.2",
 		"vitest": "^2.1.9"
 	}
 }
