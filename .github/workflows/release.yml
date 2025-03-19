@@ -24,6 +24,7 @@ jobs:
         with:
           cache: pnpm
           node-version-file: .tool-versions
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies
         run: pnpm i
