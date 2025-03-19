@@ -49,7 +49,7 @@
 		"conventional-changelog-unjs": "workspace:*",
 		"conventional-changelog-writer": "^8.0.1",
 		"eslint": "^9.22.0",
-		"release-it": "^18.1.2",
+		"release-it": "^17.11.0",
 		"vitest": "^3.0.9"
 	}
 }
