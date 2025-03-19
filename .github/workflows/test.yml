@@ -1,15 +1,13 @@
-name: Release
+name: Test
 
 on:
+  pull_request:
   push:
-    tags:
-      - 'v*'
-
-permissions:
-  contents: write
+    branches:
+      - main
 
 jobs:
-  publish-npm:
+  unit-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +24,13 @@ jobs:
           node-version-file: .tool-versions
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Publish to npm
-        run: pnpm publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Install Dependencies
+        run: pnpm i
+
+      - name: Run Unit Test
+        run: pnpm test
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
