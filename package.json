@@ -29,9 +29,9 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "vitest run",
+		"test": "vitest run --coverage",
 		"dev:test": "vitest",
-		"lint": "eslint .",
+		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
 		"release": "release-it --ci"
 	},
 	"peerDependencies": {
@@ -45,6 +45,7 @@
 	"devDependencies": {
 		"@aa900031/eslint-config": "^3.1.0",
 		"@release-it/conventional-changelog": "^9.0.4",
+		"@vitest/coverage-istanbul": "^3.0.9",
 		"conventional-changelog-unjs": "workspace:*",
 		"conventional-changelog-writer": "^8.0.1",
 		"eslint": "^9.22.0",

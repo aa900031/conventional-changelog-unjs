@@ -27,5 +27,10 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Unit Test
+      - name: Run Unit Test
         run: pnpm test
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
