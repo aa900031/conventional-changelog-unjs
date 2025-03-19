@@ -34,6 +34,9 @@
 		"lint": "eslint .",
 		"release": "release-it --ci"
 	},
+	"peerDependencies": {
+		"conventional-changelog": "^5.1.0 || ^6.0.0"
+	},
 	"dependencies": {
 		"compare-func": "^2.0.0",
 		"defu": "^6.1.4",
