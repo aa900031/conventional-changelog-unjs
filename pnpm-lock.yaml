@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
 
+overrides:
+  '@aa900031/release-it-config>conventional-changelog-unjs': workspace:*
+
 importers:
 
   .:
@@ -21,15 +24,12 @@ importers:
       '@aa900031/eslint-config':
         specifier: ^3.1.0
         version: 3.1.0(@typescript-eslint/utils@8.26.1(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(vitest@3.1.1(@types/debug@4.1.12)(jiti@2.4.2)(yaml@2.7.0))
-      '@release-it/conventional-changelog':
-        specifier: ^10.0.0
-        version: 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@https://pkg.pr.new/release-it@1ef2e54(magicast@0.3.5))
+      '@aa900031/release-it-config':
+        specifier: ^0.1.0
+        version: 0.1.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@https://pkg.pr.new/release-it@1ef2e54(magicast@0.3.5))
       '@vitest/coverage-istanbul':
         specifier: ^3.1.1
         version: 3.1.1(vitest@3.1.1(@types/debug@4.1.12)(jiti@2.4.2)(yaml@2.7.0))
-      conventional-changelog-unjs:
-        specifier: workspace:*
-        version: 'link:'
       conventional-changelog-writer:
         specifier: ^8.0.1
         version: 8.0.1
@@ -49,6 +49,10 @@ packages:
     resolution: {integrity: sha512-IauVUn3H6S2Bn9BOLE4T4vPo+kOaZCEplUWrLGaCz1q9O0Kq/Yj/7UyXD1Sk7RiIbpvzqcT7qPNNYVkOXofLfg==}
     peerDependencies:
       eslint: '>=8.0.0'
+
+  '@aa900031/release-it-config@0.1.0':
+    resolution: {integrity: sha512-HS3cPETDGgzVBhr4GeXVO5pqh2MyiG9lkJXYhSqrnwjQl1zvzQXopskbcg6e/43wA6KjUZMaavrpjAhoK1EwUw==}
+    version: 0.1.0
 
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
@@ -812,8 +816,8 @@ packages:
   '@types/parse-path@7.0.3':
     resolution: {integrity: sha512-LriObC2+KYZD3FzCrgWGv/qufdUy4eXrxcLgQMfYXgPbLIecKIsVBaQgUPmxSSLcjmYbDTQbMgr6qr6l/eb7Bg==}
 
-  '@types/semver@7.5.8':
-    resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
+  '@types/semver@7.7.0':
+    resolution: {integrity: sha512-k107IF4+Xr7UHjwDc7Cfd6PRQfbdkiRabXGRjo07b4WyPahFBZCZ1sE+BNxYIJPPg73UkfOsVOLwqVc/6ETrIA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -3000,6 +3004,15 @@ snapshots:
       - typescript
       - vitest
 
+  '@aa900031/release-it-config@0.1.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@https://pkg.pr.new/release-it@1ef2e54(magicast@0.3.5))':
+    dependencies:
+      '@release-it/conventional-changelog': 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@https://pkg.pr.new/release-it@1ef2e54(magicast@0.3.5))
+      conventional-changelog-unjs: 'link:'
+    transitivePeerDependencies:
+      - conventional-commits-filter
+      - conventional-commits-parser
+      - release-it
+
   '@ampproject/remapping@2.3.0':
     dependencies:
       '@jridgewell/gen-mapping': 0.3.8
@@ -3168,7 +3181,7 @@ snapshots:
 
   '@conventional-changelog/git-client@1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
     dependencies:
-      '@types/semver': 7.5.8
+      '@types/semver': 7.7.0
       semver: 7.7.1
     optionalDependencies:
       conventional-commits-filter: 5.0.0
@@ -3692,7 +3705,7 @@ snapshots:
 
   '@types/parse-path@7.0.3': {}
 
-  '@types/semver@7.5.8': {}
+  '@types/semver@7.7.0': {}
 
   '@types/unist@3.0.3': {}
 
