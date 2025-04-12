@@ -12,19 +12,13 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-
-      - name: Setup Nodejs
-        uses: actions/setup-node@v4
-        with:
-          cache: pnpm
-          node-version-file: .tool-versions
-          registry-url: 'https://registry.npmjs.org'
+      - name: Setup
+        uses: ./.github/actions/setup
 
       - name: Publish to npm
         run: pnpm publish --access public --no-git-checks
