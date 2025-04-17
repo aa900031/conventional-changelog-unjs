@@ -3,8 +3,9 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
-[![npm peer dependency version - conventional-changelog][peer-deps-conventional-changelog-src]][peer-deps-conventional-changelog-href]
 [![coverage][coverage-src]][coverage-href]
+
+[![npm peer dependency version - conventional-changelog][peer-deps-conventional-changelog-src]][peer-deps-conventional-changelog-href]
 
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/) preset, generate CHANGELOG file like [unjs/changelogen](https://github.com/unjs/changelogen)
 
