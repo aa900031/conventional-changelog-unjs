@@ -48,7 +48,7 @@
 		"@vitest/coverage-istanbul": "^3.1.1",
 		"conventional-changelog-writer": "^8.0.1",
 		"eslint": "^9.24.0",
-		"release-it": "https://pkg.pr.new/release-it@1ef2e54",
+		"release-it": "^19.0.1",
 		"vitest": "^3.1.1"
 	},
 	"resolutions": {
