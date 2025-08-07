@@ -45,11 +45,11 @@
 	"devDependencies": {
 		"@aa900031/eslint-config": "^3.1.0",
 		"@aa900031/release-it-config": "^0.1.0",
-		"@vitest/coverage-istanbul": "^3.1.1",
-		"conventional-changelog-writer": "^8.0.1",
-		"eslint": "^9.24.0",
-		"release-it": "^19.0.1",
-		"vitest": "^3.1.1"
+		"@vitest/coverage-istanbul": "^3.2.4",
+		"conventional-changelog-writer": "^8.2.0",
+		"eslint": "^9.32.0",
+		"release-it": "^19.0.4",
+		"vitest": "^3.2.4"
 	},
 	"resolutions": {
 		"@aa900031/release-it-config>conventional-changelog-unjs": "workspace:*"
