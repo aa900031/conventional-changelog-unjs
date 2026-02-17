@@ -1,2 +1,12 @@
+ignoreWorkspaceRootCheck: true
+shamefullyHoist: true
+autoInstallPeers: false
+
 packages:
   - ./
+
+overrides:
+  '@aa900031/release-it-config>conventional-changelog-unjs': workspace:*
+
+onlyBuiltDependencies:
+  - esbuild
