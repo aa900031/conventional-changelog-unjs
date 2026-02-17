@@ -5,12 +5,12 @@ on:
     tags:
       - 'v*'
 
-permissions:
-  contents: write
-
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,7 +22,8 @@ jobs:
         with:
           no-turbo-cache: 'true'
 
+      - name: Update npm
+        run: npm install -g npm@latest
+
       - name: Publish to npm
         run: pnpm publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
