@@ -47,7 +47,7 @@
 		"@aa900031/release-it-config": "^0.1.1",
 		"@vitest/coverage-istanbul": "^3.2.4",
 		"conventional-changelog-writer": "^8.2.0",
-		"eslint": "^9.39.2",
+		"eslint": "^9.39.3",
 		"release-it": "^19.2.4",
 		"vitest": "^3.2.4"
 	}
