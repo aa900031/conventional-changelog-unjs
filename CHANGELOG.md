@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.0.1
+
+[compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v1.0.0...v1.0.1)
+
+### 🏡 Chore
+
+-  Add compact flag to pkg-pr-new cli (#23) ([499a984](https://github.com/aa900031/conventional-changelog-unjs/commit/499a984cb02fc5984e0ea611166e8e3a27ed5ebf))
+-  Add coverage shields ([5a1b091](https://github.com/aa900031/conventional-changelog-unjs/commit/5a1b09154d3ba90fbd0cc7d84efa600a45707870))
+-  Add LICENSE ([aad59a8](https://github.com/aa900031/conventional-changelog-unjs/commit/aad59a8308218e597ac0cb635f501b80188c0c82))
+-  Add preset to workspace ([02be5c0](https://github.com/aa900031/conventional-changelog-unjs/commit/02be5c0a8af4d0e06816388a2c9ee3e3bb2cfd54))
+-  Change type of eslint config ([ddc1850](https://github.com/aa900031/conventional-changelog-unjs/commit/ddc185012dae649756757de521537aa11616f022))
+-  **ci:** Update release script ([998cdf5](https://github.com/aa900031/conventional-changelog-unjs/commit/998cdf562b3e7ed76d07308a5b61eb80f42c2514))
+-  **ci:** Use aa900031/github-actions/setup-node ([c96ea77](https://github.com/aa900031/conventional-changelog-unjs/commit/c96ea772e78783cb7bbd15e29a1f04fa4dafe601))
+-  **deps:** Update deps ([0d26e95](https://github.com/aa900031/conventional-changelog-unjs/commit/0d26e95b0c9904e1436484944316a1c20402534c))
+-  **deps:** Update dev deps ([be701eb](https://github.com/aa900031/conventional-changelog-unjs/commit/be701ebf52831fa977fd8730dbf5150cf7dc9454))
+-  **deps:** Update node.js to v18.20.8 (#27) ([2671641](https://github.com/aa900031/conventional-changelog-unjs/commit/2671641d59cfdfa0890cba553ceb324fc41bc73a))
+-  **deps:** Update npm non-major dependencies (#25) ([c336233](https://github.com/aa900031/conventional-changelog-unjs/commit/c336233675db86c732ffce39e5784c4626573c52))
+-  **deps:** Update npm non-major develop dependencies (#30) ([d09ce63](https://github.com/aa900031/conventional-changelog-unjs/commit/d09ce631153072999360f15b2baf19b1e3736fa9))
+-  **deps:** Update pnpm to v10.8.0 (#26) ([08353c6](https://github.com/aa900031/conventional-changelog-unjs/commit/08353c6cb0e8ef5312018d652a3b2bfa61eb231f))
+-  **deps:** Update vitest to v4 ([816777b](https://github.com/aa900031/conventional-changelog-unjs/commit/816777b80faad68993e7e29a11676e9814d49f7d))
+-  **deps:** Use release-it 19 ([2b35c60](https://github.com/aa900031/conventional-changelog-unjs/commit/2b35c60ce7d9af06401e805fc7a708546401e776))
+-  Make scripts not only ci ([8afc5bb](https://github.com/aa900031/conventional-changelog-unjs/commit/8afc5bbd737a6daaddef615efe282145daeba46a))
+-  Move pnpm config in npmrc to workspace ([6bb7ab9](https://github.com/aa900031/conventional-changelog-unjs/commit/6bb7ab97c033a99ea615e083368a8a6e6ffdf6ba))
+-  Shields styles ([a3e39ce](https://github.com/aa900031/conventional-changelog-unjs/commit/a3e39ce85ab745450b4bd7f985829b26b2045d96))
+-  Update peer deps ([777e83a](https://github.com/aa900031/conventional-changelog-unjs/commit/777e83af84330ab1b4acda3f97e3d52b14f51e15))
+-  Upgrade pnpm (#24) ([cf73135](https://github.com/aa900031/conventional-changelog-unjs/commit/cf731359e986aebeaf9dfb5dc5df465d372f64b7))
+-  Use release-it-config (#28) ([4024ecb](https://github.com/aa900031/conventional-changelog-unjs/commit/4024ecb82a31cac48c392c9c7b983d58f1b77277))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.0.0
 
 [compare changes](https://github.com/aa900031/conventional-changelog-unjs/compare/v0.1.2...v1.0.0)
