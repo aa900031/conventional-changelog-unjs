@@ -21,7 +21,7 @@ jobs:
           no-turbo-cache: 'true'
 
       - name: Run Unit Test
-        run: pnpm test
+        run: pnpm test --coverage
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5

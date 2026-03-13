@@ -29,10 +29,10 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "vitest run --coverage",
-		"dev:test": "vitest",
+		"dev": "vitest",
+		"test": "vitest run",
 		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
-		"release": "release-it --ci"
+		"release": "release-it"
 	},
 	"peerDependencies": {
 		"conventional-changelog": "^6.0.0 || ^7.0.0"
