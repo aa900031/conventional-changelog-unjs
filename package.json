@@ -46,6 +46,7 @@
 		"@aa900031/eslint-config": "^6.0.0",
 		"@aa900031/release-it-config": "^0.1.1",
 		"@vitest/coverage-istanbul": "^4.1.0",
+		"conventional-changelog-unjs": "workspace:*",
 		"conventional-changelog-writer": "^8.4.0",
 		"eslint": "^9.39.4",
 		"release-it": "^19.2.4",

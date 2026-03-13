@@ -30,6 +30,9 @@ importers:
       '@vitest/coverage-istanbul':
         specifier: ^4.1.0
         version: 4.1.0(vitest@4.1.0(jiti@2.6.1)(yaml@2.8.2))
+      conventional-changelog-unjs:
+        specifier: workspace:*
+        version: 'link:'
       conventional-changelog-writer:
         specifier: ^8.4.0
         version: 8.4.0
